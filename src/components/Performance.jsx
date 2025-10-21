@@ -18,14 +18,14 @@ const Performance = () => {
 
       // Text Animation
       gsap.fromTo(
-        '.content p',
+        sectionEl.querySelector('.content p'),
         { opacity: 0, y: 10 },
         {
           opacity: 1,
           y: 0,
           ease: 'power1.out',
           scrollTrigger: {
-            trigger: '.content p',
+            trigger: sectionEl.querySelector('.content p'),
             start: 'top bottom',
             end: 'top center',
             scrub: true,

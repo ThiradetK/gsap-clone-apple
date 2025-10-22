@@ -46,7 +46,7 @@ const Highlights = () => {
             </p>
           </div>
           <div>
-            <img src="/barrery.png" alt="Battery" />
+            <img src="/battery.png" alt="Battery" />
             <p>
               Up to <span className="green-gradient">14 more hours</span>
               battery life.{' '}

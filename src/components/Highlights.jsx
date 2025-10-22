@@ -28,7 +28,7 @@ const Highlights = () => {
         <div className="left-column">
           <div>
             <img src="/laptop.png" alt="Laptop" />
-            <p>Fly through demanding taks up to 9.8x faster.</p>
+            <p>Fly through demanding tasks up to 9.8x faster.</p>
           </div>
           <div>
             <img src="/sun.png" alt="Sun" />
